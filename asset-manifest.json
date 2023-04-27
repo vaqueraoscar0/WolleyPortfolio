@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/WolleyPortfolio/static/css/main.6cccee7e.css",
+    "main.js": "/WolleyPortfolio/static/js/main.c8e2822d.js",
+    "static/js/787.752faf4d.chunk.js": "/WolleyPortfolio/static/js/787.752faf4d.chunk.js",
+    "static/media/bg.jpg": "/WolleyPortfolio/static/media/bg.e0d9adbeccecf43b0741.jpg",
+    "static/media/robo4.png": "/WolleyPortfolio/static/media/robo4.be573ec0f35fb2f534f6.png",
+    "index.html": "/WolleyPortfolio/index.html",
+    "main.6cccee7e.css.map": "/WolleyPortfolio/static/css/main.6cccee7e.css.map",
+    "main.c8e2822d.js.map": "/WolleyPortfolio/static/js/main.c8e2822d.js.map",
+    "787.752faf4d.chunk.js.map": "/WolleyPortfolio/static/js/787.752faf4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cccee7e.css",
+    "static/js/main.c8e2822d.js"
+  ]
+}
