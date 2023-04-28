@@ -10,7 +10,7 @@ export default function BodyContent(){
         <section className={'hero'}>
             <div className={'hero-text'}>
                 <h4>Advance Technology</h4>
-                <h1>Wolley-Top</h1>
+                <h1>WolleyTop</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</p>

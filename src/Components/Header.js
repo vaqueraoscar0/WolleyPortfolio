@@ -1,6 +1,9 @@
 import {FiMenu} from "react-icons/fi";
+import {useEffect, useState} from 'react'
 
 export default function Header(){
+    const [navBarScroll, setNavBarScroll] = useState('transparent')
+    
     const handleClick = () =>{
         console.log('isClicked!')
     }
@@ -11,9 +14,20 @@ export default function Header(){
         menu.classList.toggle('bx-x')
         nav.classList.toggle('open')
     }
+    
+    useEffect(() => {
+    window.onscroll = function() {
+      if(window.pageYOffset === 0) {
+        setNavBarScroll("transparent")
+      }else{
+          setNavBarScroll('black')
+      }
+    };
+  })
+  
 
     return(
-        <header className="App-header">
+        <header className="App-header" style={{background: navBarScroll}}>
             <a href={'/'} onClick={handleClick} className={'logo'} >WolleyLand</a>
             <ul className={'navlist'}>
                 <li><a href={'/'} onClick={handleClick}>Home</a></li>
