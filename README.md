@@ -1,5 +1,3 @@
-Certainly! Here's a revised version of the README:
-
 # WalleyPortfolio
 
 Welcome to WalleyPortfolio! This is a simple landing page template built with React.js. It's perfect for showcasing your personal or professional portfolio. The template is fully responsive, so it looks great on any device.
